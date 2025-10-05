@@ -12,7 +12,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand me-auto" href="#">Osheaga</a>
+        <a class="navbar-brand me-auto" href="#">Critique</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,19 +21,19 @@
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Programmation</a>
+              <a class="nav-link active" aria-current="page" href="#">Films</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Billetterie</a>
+              <a class="nav-link" href="#">Livres</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Hébergement</a>
+              <a class="nav-link" href="#">Podcast</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Expérience</a>
+              <a class="nav-link" href="#">Musique</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Le festival</a>
+              <a class="nav-link" href="#">Séries</a>
             </li>
           </ul>
         </div>
@@ -54,16 +54,122 @@
       ">
       <h1 class="mb-3">L'Avatar</h1>
       <h4 class="mb-3">Un film de James Cameron</h4>
-      <a class="btn btn-primary" href="#" role="button">Regarder la bande-annonce</a>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Regarder la bande-annonce
+      </button>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Bande-annonce Avatar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/O1CzgULNRGs?start=2" title="Avatar Bande-annonce" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
   <main class="container mt-5">
-    
+    <div class="row">
+      <p class="text-bg-primary p-5 col-6">
+        "Ils nous ont envoyés un message, disant qu’ils peuvent prendre tous ce qu’ils convoitent, 
+        nous allons leur répondre… que ce monde… est notre terre a nous." <br><br> - Jake Sully.
+      </p>
+      <div class="col-5 offset-1">
+        <h5>Articles</h5>
+        <h6>À regarder plus tard...</h6>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>img</td>
+              <td>info</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>img</td>
+              <td>info</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>img</td>
+              <td>info</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <img src="./assets/images/avatar.jpg" alt="avatar" class="img-fluid mt-5 mb-5 row-5">
+
+      <div class="col-8">
+        <h1>Avatar</h1>
+        <br>
+        <p>
+          Le film Avatar, réalisé par James Cameron, est une œuvre cinématographique qui a marqué l'industrie du cinéma par son innovation technologique et son récit captivant. 
+          Sorti en 2009, le film se déroule sur la planète Pandora, où les humains exploitent les ressources naturelles au détriment des habitants autochtones, les Na'vi. 
+          Le protagoniste, Jake Sully, un ancien marine paraplégique, est envoyé sur Pandora pour infiltrer les Na'vi en utilisant un avatar, une version génétiquement modifiée de lui-même. 
+          Au fil de l'histoire, Jake développe une connexion profonde avec la culture et la nature de Pandora, remettant en question ses loyautés et son rôle dans le conflit entre les humains et les Na'vi. 
+          Le film aborde des thèmes tels que l'écologie, le colonialisme et la rédemption, tout en offrant des visuels époustouflants grâce à l'utilisation de la technologie 3D et des effets spéciaux avancés. 
+          Avatar a été acclamé pour son innovation technique et son message puissant, devenant l'un des films les plus rentables de tous les temps.
+        </p>
+      </div>
+      <div class="col-4">
+        <h5>Informations</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Réalisateur: James Cameron</li> 
+          <li class="list-group-item">Année: 2009</li>
+          <li class="list-group-item">Durée: 162 minutes</li>
+          <li class="list-group-item">Genre: Science-fiction, Aventure</li>
+          <li class="list-group-item">Casting: Sam Worthington, Zoe Saldana, Sigourney Weaver</li>
+          <li class="list-group-item">Note: 4.5/5</li>
+        </ul>   
+      </div>
+      
+      <h3 class="mt-5 col-12">Critiques</h3>
+
+      <div class="row">
+        <div class="col-6">
+          <img src="./assets/images/avatar1.jpg" alt="image de avatar" class="img-fluid mt-5 mb-5">
+        </div>
+        <div class="col-6 p-5">
+          <p>
+            Avatar est un véritable chef-d’œuvre visuel qui repousse les frontières du cinéma moderne. 
+            James Cameron y déploie un univers d’une beauté saisissante, à la fois immersif et foisonnant de détails, où les effets spéciaux se mettent au service d’une narration ambitieuse. 
+            Derrière le spectacle grandiose, le film propose une réflexion profonde sur des enjeux universels : la préservation de l’environnement, la relation entre l’homme et la nature, ainsi que le respect des cultures autochtones trop souvent menacées.
+          </p>
+        </div>
+
+        <p class="col-12">
+          L’intrigue, portée par un rythme palpitant, conjugue émotion et action, invitant le spectateur à un véritable voyage sensoriel. 
+          Les interprétations des acteurs renforcent l’impact du récit, avec une mention particulière pour Sam Worthington, qui insuffle intensité et sensibilité au personnage de Jake Sully.
+        </p>
+
+        <br>
+
+        <p>
+          Avatar n’est pas seulement un film : c’est une expérience cinématographique unique, qui prend toute sa dimension sur grand écran et marque durablement l’imaginaire du spectateur.
+        </p>
+      </div>
+    </div>
   </main>
 
-  <footer class="p-3 text-bg-dark text-center mt-5">
-    © Fait par Meena Atai 2025–2026
+  <footer class="p-5 text-bg-dark text-center mt-5">
+    © Fait par Meena Atai 2025 - 2026
   </footer>
 </body>
 </html>
+
+
+
+
+
+
