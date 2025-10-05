@@ -1,4 +1,4 @@
-// Initialization for ES Users
+// Initialisation pour ES Utilisateurs
 import { Collapse, Ripple, initMDB } from "mdb-ui-kit";
 
 initMDB({ Collapse, Ripple });
