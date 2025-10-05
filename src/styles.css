@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Toruk';
+  src: url('./assets/fonts/TorukscRegular-z8MA1.ttf') format('truetype');
+}
+
+.avatar {
+  font-family: 'Toruk';
+}
+
+.quote {
+  font-size: 30px;
+}
+
+.date {
+  font-size: 12px;
+}

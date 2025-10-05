@@ -7,11 +7,15 @@
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css" />
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="./src/styles.css"/>
+  <script src="./src/scripts.js"></script>
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
+        <img src="./node_modules/bootstrap-icons/icons/flower3.svg" alt="flower3" height="45px" width="auto">
         <a class="navbar-brand me-auto" href="#">Critique</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,29 +82,36 @@
 
   <main class="container mt-5">
     <div class="row">
-      <p class="text-bg-primary p-5 col-6">
-        "Ils nous ont envoyés un message, disant qu’ils peuvent prendre tous ce qu’ils convoitent, 
-        nous allons leur répondre… que ce monde… est notre terre a nous." <br><br> - Jake Sully.
+      <p class="text-bg-primary p-5 col-6 avatar">
+        <b class="quote">"Ils nous ont envoyés un message, disant qu'ils peuvent prendre tous ce qu'ils convoitent, 
+        nous allons leur répondre… que ce monde… est notre terre a nous."</b> <br><br> - <i>Jake Sully</i>
       </p>
+      
       <div class="col-5 offset-1">
-        <h5>Articles</h5>
-        <h6>À regarder plus tard...</h6>
+        <h4 class="text-primary">Articles de cette semaine</h4>
+        <h6><i>À regarder plus tard...</i></h6>
         <table class="table">
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>img</td>
-              <td>info</td>
+              <td class="p-3">
+                <img src="./assets/images/f1.jpg" alt="f1" class="rounded" height="70px" width="auto">
+              </td>
+              <td>Critique sur l'univers palpitant de la Formule 1, entre vitesse, adrénaline et rivalités légendaires. <br><p class="text-muted date p-2">Publié le 2 octobre</p></td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>img</td>
-              <td>info</td>
+              <td class="p-3">
+                <img src="./assets/images/how-to-train-your-dragon-2025-button-replacement-1732051579541.jpg" alt="dragon" class="rounded" height="70px" width="124px">
+              </td>
+              <td>Un voyage magique où l'amitié entre humains et dragons dépasse toutes les frontières.<br><p class="text-muted date p-2">Publié le 1 octobre</p></td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>img</td>
-              <td>info</td>
+              <td class="p-3">
+                <img src="./assets/images/Superman-Poster-v2-watermarked-POSTERSPY.jpg" alt="superman" class="rounded" height="67px" width="124px">
+              </td>
+              <td>L'homme d'acier face à de nouveaux défis, entre justice et sacrifice.<br><p class="text-muted date p-2">Publié le 30 septembre</p></td>
             </tr>
           </tbody>
         </table>
@@ -109,9 +120,8 @@
 
     <div class="row mt-5">
       <img src="./assets/images/avatar.jpg" alt="avatar" class="img-fluid mt-5 mb-5 row-5">
-
-      <div class="col-8">
-        <h1>Avatar</h1>
+      <div class="col-8 bg-light p-5">
+        <h1 class="avatar text-primary">Avatar</h1>
         <br>
         <p>
           Le film Avatar, réalisé par James Cameron, est une œuvre cinématographique qui a marqué l'industrie du cinéma par son innovation technologique et son récit captivant. 
@@ -122,8 +132,10 @@
           Avatar a été acclamé pour son innovation technique et son message puissant, devenant l'un des films les plus rentables de tous les temps.
         </p>
       </div>
+
       <div class="col-4">
-        <h5>Informations</h5>
+        <h5 class="text-center">Informations</h5>
+        <br>
         <ul class="list-group">
           <li class="list-group-item">Réalisateur: James Cameron</li> 
           <li class="list-group-item">Année: 2009</li>
@@ -134,29 +146,30 @@
         </ul>   
       </div>
       
-      <h3 class="mt-5 col-12">Critiques</h3>
-
-      <div class="row">
+      <h3 class="mt-5 col-12 avatar">Critiques - Voyage critique au cœur d'Avatar</h3>
+      <div class="row bg-light">
         <div class="col-6">
           <img src="./assets/images/avatar1.jpg" alt="image de avatar" class="img-fluid mt-5 mb-5">
         </div>
-        <div class="col-6 p-5">
+        <div class="col-6 p-5 text-primary">
           <p>
-            Avatar est un véritable chef-d’œuvre visuel qui repousse les frontières du cinéma moderne. 
-            James Cameron y déploie un univers d’une beauté saisissante, à la fois immersif et foisonnant de détails, où les effets spéciaux se mettent au service d’une narration ambitieuse. 
-            Derrière le spectacle grandiose, le film propose une réflexion profonde sur des enjeux universels : la préservation de l’environnement, la relation entre l’homme et la nature, ainsi que le respect des cultures autochtones trop souvent menacées.
+            Avatar est un véritable chef-d'œuvre visuel qui repousse les frontières du cinéma moderne. 
+            James Cameron y déploie un univers d'une beauté saisissante, à la fois immersif et foisonnant de détails, où les effets spéciaux se mettent au service d'une narration ambitieuse. 
+            Derrière le spectacle grandiose, le film propose une réflexion profonde sur des enjeux universels : la préservation de l'environnement, la relation entre l'homme et la nature, ainsi que le respect des cultures autochtones trop souvent menacées.
           </p>
         </div>
-
-        <p class="col-12">
-          L’intrigue, portée par un rythme palpitant, conjugue émotion et action, invitant le spectateur à un véritable voyage sensoriel. 
-          Les interprétations des acteurs renforcent l’impact du récit, avec une mention particulière pour Sam Worthington, qui insuffle intensité et sensibilité au personnage de Jake Sully.
+        <p class="col-12 text-primary">
+          Mais derrière la prouesse technique se dessine une narration ambitieuse qui aborde des thèmes d'une grande portée. 
+          Le film met en lumière la fragilité des écosystèmes face à l'exploitation humaine et propose une réflexion sur la préservation de la nature, rappelant les menaces bien réelles qui pèsent sur notre planète. 
+          Cameron souligne également l'importance du respect des cultures autochtones, souvent réduites au silence ou écrasées par des logiques de conquête et de profit. 
+          Ces thématiques universelles confèrent au récit une résonance contemporaine, transformant cette aventure de science-fiction en une parabole écologique et humaniste.
         </p>
-
         <br>
-
-        <p>
-          Avatar n’est pas seulement un film : c’est une expérience cinématographique unique, qui prend toute sa dimension sur grand écran et marque durablement l’imaginaire du spectateur.
+        <p class="text-primary">
+          Les performances des acteurs renforcent l'impact de ce récit foisonnant. Sam Worthington, dans le rôle de Jake Sully, incarne avec justesse un personnage déchiré entre deux mondes, offrant une interprétation nuancée qui donne chair à cette odyssée. 
+          Zoe Saldaña, magistrale en Neytiri, impose à l'écran une intensité émotionnelle remarquable, rendant son personnage à la fois puissant et profondément attachant. 
+          Autour d'eux, le reste de la distribution contribue à la cohérence et à la force du film. 
+          Grâce à cette alchimie entre prouesse visuelle, intensité dramatique et engagement thématique, Avatar s'impose comme bien plus qu'un film à grand spectacle : une expérience cinématographique totale, à vivre absolument sur grand écran pour en saisir toute l'ampleur.
         </p>
       </div>
     </div>
@@ -167,9 +180,3 @@
   </footer>
 </body>
 </html>
-
-
-
-
-
-
